@@ -1,25 +1,25 @@
 body {
-	background: url('slike/debut_light.png');
+	background: url('slike/ta1.png');
 }
 /* ------ Zaglavlje / početak ------ */
 .zaglavlje {
-	height: 400px;
-	background: url('slike/zaglavlje2.jpg') no-repeat;
+	height: 500px;
+	background: url('slike/zaglavlje3.jpg') no-repeat;
 	background-size: cover;
 }
 .zaglavlje a {
-	color: #fff;
-	font-size: 24pt;
+	color: darkgray;
+	font-size: 12pt;
 	text-decoration: none;
 	display: block;
-	margin-top: 30px;
-	margin-left: 30px;
+	margin-top: 10px;
+	margin-left: 10px;
 	text-transform: uppercase;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Times New Roman', sans-serif;
 }
 .zaglavlje p {
 	color: #fff;
-	font-size: 32pt;
+	font-size: 48pt;
 	text-align: center;
 	width: 100%;
 	position: absolute;
@@ -53,11 +53,11 @@ body {
 /* ------ Navigacija / početak ------ */
 .navigacija {
 	height: 70px;
-	background-color: #F1C40F; 
+	background-color: #92DFF3; 
 }
 .navigacija li {
 	display: inline;
-	margin-right: 40px;
+	margin-right: 100px;
 	list-style-type: none;
 }
 .navigacija li a {
@@ -84,7 +84,7 @@ body {
 	.navigacija .main-menu li {
 		border-top: 1px solid black;
 		display: block;
-		background-color: #F1C40F;
+		background-color: #92DFF3;
 	}
 	.navigacija {
 		height: auto;
@@ -165,14 +165,14 @@ body {
 
 /* ------ Kontakt / početak ------ */
 .kontakt {
-	background-color: #F1C40F;
-	padding: 50px 30px;
+	background-color: #92DFF3;
+	padding: 50px 50px;
 	margin-top: 60px;
 }
 .kontakt h1 {
 	font-size: 24pt;
 	font-family: 'Lobster', cursive;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 }
 .kontakt input[type=text],
 .kontakt input[type=email],
@@ -187,7 +187,7 @@ body {
 	background-color: #000;
 	border: 0;
 	border-radius: 0;
-	width: 200px;
+	width: 400px;
 	height: 50px;
 }
 @media screen and (max-width:575px) {
@@ -204,7 +204,7 @@ body {
 /* ------ Footer / početak ------ */
 .footer {
 	height: 250px;
-	background: url('slike/footer.jpg');
+	background: url('slike/footer2.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin-top: 60px;
@@ -225,12 +225,12 @@ body {
 }
 .footer ul li {
 	display: inline;
-	margin-right: 10px;
-	margin-left: 10px;
+	margin-right: 30px;
+	margin-left: 30px;
 }
 .footer li a {
 	color: #fff;
-	font-size: 18pt;
+	font-size: 24pt;
 	text-decoration: none;
 }
 @media screen and (max-width:767px) {
@@ -265,7 +265,7 @@ body {
 	height: 250px;
 }
 .vjestina.svijetlo-siva {
-	background-color: #F0F0F0;
+	background-color: #92DFF3;
 }
 .vjestina.tamno-siva {
 	background-color: #E0E0E0;
@@ -342,14 +342,14 @@ body {
 	height: 250px;
 }
 .social-profile.svijetlo-siva {
-	background-color: #F0F0F0;
+	background-color: #92DFF3;
 }
 .social-profile.tamno-siva {
 	background-color: #E0E0E0;
 }
 @media screen and (max-width:767px) {
 	.social-profile:nth-child(odd) {
-		background-color: #F0F0F0;
+		background-color: #92DFF3;
 	}
 	.social-profile:nth-child(even) {
 		background-color: #E0E0E0;
